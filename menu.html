@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Menu</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="author" content="bartbart2003">
+    <style>
+    .button {
+     transition-duration: 0.2s;
+     display: block;
+     height: 50px;
+     width: 200px;
+     background-color: #00ffff;
+     border-style: solid;
+     border-color: #2c656d;
+    }
+    .button:hover {
+     background-color: #1F95A5;
+    }
+    .button-home {
+     transition-duration: 0.2s;
+     display: block;
+     height: 50px;
+     width: 200px;
+     background-color: #ff8080;
+     border-style: solid;
+     border-color: #2c656d;
+    }
+    .button-home:hover {
+     background-color: #E93A4F;
+    }
+    html, body {
+     margin: 0;
+     background-color: #00bcd4;
+    }
+    </style>
+</head>
+<body>
+<img src='bartbart2003.png' width='220' height='220'></img>
+<center><a href='http://bartbart2003.github.io' target='_top'><font size='5' color='#f44336'>bartbart2003</font>
+<font size='4' color='#f44336'>.github.io</a></font><br>
+<br><button class="button-home" onclick="top.frames['strona'].location = 'main.html'">Strona główna</button>
+<br><button class="button" onclick="top.frames['strona'].location = 'chat.html'">Chat</button>
+<br><button class="button" onclick="top.frames['strona'].location = 'bartclicker.html'">BartClicker</button>
+</body>
+</html>
