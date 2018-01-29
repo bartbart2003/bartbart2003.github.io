@@ -1,25 +1,27 @@
-<!doctype html>
-<html lang="pl">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Menu</title>
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <meta name="author" content="bartbart2003">
-    <style>
-    .button {
+<title>Menu</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="author" content="bartbart2003">
+<link rel="stylesheet" href="css/style.css" />
+<style>
+.button {
      transition-duration: 0.2s;
      display: block;
      height: 50px;
-     width: 200px;
-     background-color: #00ffff;
+     width: 100vw;
+     background-color: cyan;
      border-style: solid;
      border-color: #2c656d;
+     margin-top: 10px;
     }
     .button:hover {
      background-color: #1F95A5;
     }
     #button-home {
-     background-color: #ff8080;
+     background-color: coral;
+     margin-top: 0px;
     }
     #button-home:hover {
      background-color: #E93A4F;
@@ -31,11 +33,15 @@
     </style>
 </head>
 <body>
-<img src='bartbart2003.png' width='220' height='220'></img>
-<center><a href='http://bartbart2003.github.io' target='_top'><font size='5' color='#f44336'>bartbart2003</font><br>
-<font size='4' color='#f44336'>.github.io</a></font><br>
-<br><button class="button" id="button-home" onclick="top.frames['strona'].location = 'main.html'">Strona główna</button>
-<br><button class="button" onclick="top.frames['strona'].location = 'chat.html'">Chat</button>
-<br><button class="button" onclick="top.frames['strona'].location = 'bartclicker.html'">BartClicker</button>
+<img src='bartbart2003.png' style='width: 100vw; height: auto;' />
+<center>
+<a href='http://bartbart2003.github.io' target='_top'><span style='font-size: 22px; color: #f44336'>bartbart2003</span><br>
+<span style='font-size: 19px; color: #f44336'>.github.io</a></span><br><br>
+<button class="button" id="button-home" onclick="top.frames['siteFrame'].location = 'main.html'">Homepage</button>
+<div style='background-color: #ff8080; margin-top: 10px; padding-top: 10px; padding-bottom: 10px;'>
+<div style='font-size: 20px;'>My projects</div>
+<button class="button" onclick="top.frames['siteFrame'].location = 'chat.html'">BSChat</button>
+<button class="button" onclick="top.frames['siteFrame'].location = 'bartclicker.html'">BartClicker</button>
+</div>
 </body>
 </html>
