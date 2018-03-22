@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>LibreAnswer</title>
+<script src='js/jquery.js'></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name=viewport content="width=device-width, initial-scale=1">
 <meta name="author" content="bartbart2003">
@@ -8,10 +9,14 @@
 </head>
 <body><center>
 <center>
+<div id='menuDiv'></div>
 LibreAnswer is a game inspired by the 'Who Wants to Be a Millionaire?' TV show.<br>
 Official LibreAnswer server: <a href="http://ans.bartbart.pl" target="_top">ans.bartbart.pl</a><br>
 Website: <a href="http://bartbart.pl/libreanswer" target="_top">here</a><br>
 GitHub: <a href="https://github.com/bartbart2003/libreanswer" target="_top">LibreAnswer repo</a>
 </center>
+<script>
+$("#menuDiv").load("menu.html");
+</script>
 </body>
 </html>

@@ -6,43 +6,56 @@
 <meta name="author" content="bartbart2003">
 <link rel="stylesheet" href="css/style.css" />
 <style>
+html, body {
+	margin: 0;
+}
+
 .button {
-     transition-duration: 0.2s;
-     display: block;
-     height: 50px;
-     width: 100vw;
-     background-color: cyan;
-     border-style: solid;
-     border-color: #2c656d;
-     margin-top: 10px;
-    }
-    .button:hover {
-     background-color: #1F95A5;
-    }
-    #button-home {
-     background-color: coral;
-     margin-top: 0px;
-    }
-    #button-home:hover {
-     background-color: #E93A4F;
-    }
-    html, body {
-     margin: 0;
-     background-color: #00bcd4;
-    }
-    </style>
+	transition-duration: 0.2s;
+	height: 50px;
+	width: 10vw;
+	background-color: cyan;
+	border: 1px solid black;
+}
+
+.button:hover {
+	transition-duration: 0.2s;
+	border: 5px solid darkcyan;
+}
+
+#button-home {
+	background-color: coral;
+	margin-top: 0px;
+}
+
+#button-home:hover {
+	transition-duration: 0.2s;
+	border: 5px solid orange;
+}
+
+#button-bartbart {
+	background-color: lightgreen;
+	margin-top: 0px;
+}
+
+#button-bartbart:hover {
+	transition-duration: 0.2s;
+	border: 5px solid green;
+}
+</style>
 </head>
 <body>
-<img src='bartbart2003.png' style='width: 100vw; height: auto;' />
-<center>
-<a href='http://bartbart2003.github.io' target='_top'><span style='font-size: 22px; color: #f44336'>bartbart2003</span><br>
-<span style='font-size: 19px; color: #f44336'>.github.io</a></span><br><br>
-<button class="button" id="button-home" onclick="top.frames['siteFrame'].location = 'main.html'">Homepage</button>
-<div style='background-color: #ff8080; margin-top: 10px; padding-top: 10px; padding-bottom: 10px;'>
-<div style='font-size: 20px;'>My projects</div>
-<button class="button" onclick="top.frames['siteFrame'].location = 'chat.html'">BSChat</button>
-<button class="button" onclick="top.frames['siteFrame'].location = 'bartclicker.html'">BartClicker</button>
-<button class="button" onclick="top.frames['siteFrame'].location = 'libreanswer.html'">LibreAnswer</button>
+<div style='text-align: center; margin: auto; width: 80vw; background-color: lightsteelblue; margin-top: 10px; margin-bottom: 10px; padding: 10px; border-radius: 10px;'>
+<div style='text-align: center; letter-spacing: 2px; font-size: 22px; font-weight: bold;'>
+bartbart2003.github.io
+</div>
+<div style='text-align: center; letter-spacing: 1px; font-size: 20px; font-weight: bold;'>
+<button class="button" id="button-home" onclick="window.location.href= 'index.html'">Homepage</button>
+<button class="button" onclick="window.location.href = 'chat.html'">BSChat</button>
+<button class="button" onclick="window.location.href = 'bartclicker.html'">BartClicker</button>
+<button class="button" onclick="window.location.href = 'libreanswer.html'">LibreAnswer</button>
+<button class="button" id="button-bartbart" onclick="window.location.href = 'http://bartbart.pl'">bartbart.pl</button>
+</div>
 </div>
 </body>
 </html>

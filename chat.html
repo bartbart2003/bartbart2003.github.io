@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Chat</title>
+<script src='js/jquery.js'></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name=viewport content="width=device-width, initial-scale=1">
 <meta name="author" content="bartbart2003">
@@ -8,8 +9,12 @@
 </head>
 <body>
 <center>
+<div id='menuDiv'></div>
 BSChat is a simple chat app written in PHP and using database to store data.<br>
-Live BSChat example available here (Polish server): <a href="http://chat.bartbart.pl" target="_top">click</a>
+Official (Polish) BSChat server: <a href="http://chat.bartbart.pl" target="_top">click</a>
 </center>
+<script>
+$("#menuDiv").load("menu.html");
+</script>
 </body>
 </html>
