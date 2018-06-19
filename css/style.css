@@ -4,3 +4,73 @@ body
 	background-color: white;
 	font-family: 'Lato', sans-serif;
 }
+
+#headerDiv
+{
+	background-color: #FFAC20;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	width: 94vw;
+	margin: auto;
+}
+
+#projectsDiv
+{
+	width: 90vw;
+	background-color: #FFE394;
+	margin: auto;
+}
+
+#projectsHeader
+{
+	background-color: #DFF2F6;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.singleProjectDiv
+{
+	background-color: #CFF769;
+	display: inline-block;
+	width: 26vw;
+	min-width: 100px;
+	min-height: 100px;
+	margin: 1vw;
+	padding: 1vw;
+	border: 1px solid black;
+}
+
+.singleProjectHeader
+{
+	background-color: #EE9A86;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.singleProjectDescription
+{
+	background-color: #ECF0AC;
+	padding: 10px;
+	text-align: center;
+	font-size: 17px;
+}
+
+.singleProjectLink
+{
+	background-color: #ACE5F0;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+a {
+	color: black;
+}
