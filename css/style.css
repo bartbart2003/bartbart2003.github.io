@@ -14,6 +14,18 @@ body
 	font-size: 22px;
 }
 
+#pewDiv
+{
+	background-color: #FFAC20;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
 #categoryDiv
 {
 	background-color: #FFE394;
